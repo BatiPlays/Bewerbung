@@ -1,0 +1,21 @@
+<form method="post" id="extSearch">
+    <div>
+        <ul>
+            <li><label><b>@TITLE_NAME_SEARCH</b></label></li>
+            <li><input type="text" placeholder="Enter Title Name" id="title" ></li>
+            <li><label><b>@PLAYLIST_NAME_SEARCH</b></label></li>
+            <li><input type="text" placeholder="Enter Playlist Name" id="playlist" ></li>
+            <li><label><b>@ARTIST_ACTOR_SEARCH</b></label></li>
+            <li><input type="text" placeholder="Enter Artists" id="artist" ></li>
+            <li><label><b>@OWNER_SEARCH</b></label></li>
+            <li><input type="text" placeholder="Enter Owner" id="owner" ></li>
+            <li><label><b>@RELEASE_SEARCH</b></label></li>
+            <li><input type="text" placeholder="Enter Release" id="release" ></li>
+            <li><label><b>@GENRE_SEARCH</b></label></li>
+            <li><input type="text" placeholder="Enter Genre" id="genre" ></li>
+            <li><label><b>@TAGS_SEARCH</b></label></li>
+            <li><input type="text" placeholder="Enter Tags" id="tags" ></li>
+            <li><a id="sendSearch" class="sendSearch">@SEARCH..</a></li>
+        </ul>
+    </div>
+</form>

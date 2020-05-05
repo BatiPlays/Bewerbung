@@ -1,0 +1,10 @@
+title: #TITLE
+
+include: #ICON_CSS
+include: #MAIN_CSS
+include: #COLOR_CSS
+include: #CONTENT_CSS
+include: #NAVIGATION_CSS
+include: #BACKGROUND_CSS
+
+content: #UPLOAD

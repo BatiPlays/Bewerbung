@@ -1,0 +1,17 @@
+<form id="upload" method="POST" enctype="multipart/form-data">
+    <div>
+        <ul>
+            <li><label for="uname"><b>Media Title</b></label></li>
+            <li><input type="text" placeholder="Enter Media Title" id="mTitle" required></li>
+            <li><label for="psw"><b>Artist</b> @HINT_LIST_SEPARATOR</label></li>
+            <li><input type="text" placeholder="Enter Artist" id="mArtist" required></li>
+            <li><label for="psw"><b>Tags</b> @HINT_LIST_SEPARATOR</label></li>
+            <li><input type="text" placeholder="Enter Tags" id="mTags" required></li>
+            <li><label for="psw"><b>File</b></label></li>
+            <li><input id="mFile" type="file" /></li>
+            <li><label for="psw"><b>Thumbnail</b></label></li>
+            <li><input id="mThumbnail" type="file" /></li>
+            <li><a id="sendUpload" class="formLogin">Upload</a> <a id="quitUpload" class="formQuit">@QUIT</a></li>
+        </ul>
+    </div>
+</form>

@@ -1,0 +1,57 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", Times, serif;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.boxTitle {
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 98%;
+
+  left: 50%;
+  transform: translate(-49%);
+  background-color: white;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.centerTitle
+{
+  top: 0;
+  left: 0;
+  transform: translate(0, -100%);
+  text-align: center;
+}
+
+.right
+{
+  top: 0;
+  left: 100%;
+  transform: translate(-3%, -225%);
+
+  text-align: right;
+}
+
+.right a
+{
+  text-decoration: none;
+  color: gray;
+
+  transition: 0.5s;
+}
+a:hover
+{
+  color: black;
+}

@@ -1,0 +1,3 @@
+<h2 class="center" id="content">@CONTENT_TITLE</h2>
+<h3 class="right"><a href="#services">@FILTER</a></h3>
+@ELEMENTS

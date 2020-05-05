@@ -1,0 +1,6 @@
+<div class="boxTitle">
+    <h2 class="center">@CONTENT_TITLE</h2>
+    <h3 class="right"><a href="#services">@FILTER</a></h3>
+    <div class="list" onload="myFunction(@CONTENT_ID)">
+    </div>
+</div>

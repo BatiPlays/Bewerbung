@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html style="width: 100%;">
+	<head>
+
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/navigation.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+		<title>HomStream</title>
+
+	</head>
+
+	<body>
+
+    <div class="container">
+      <div class="topnav topnavUP">
+				<a href="#home"><i class="fa fa-fw fa-upload"></i></a>
+        <a class="button" href="#home"><i class="fa fa-fw fa-film"></i> Videos</a>
+        <a class="button" href="#services"><i class="fa fa-fw fa-image"></i> Bilder</a>
+        <a class="button" href="#clients"><i class="fa fa-fw fa-music"></i> Musik</a>
+        <a href="#services"><i id="user" class="fa fa-fw fa-user-o"></i></a>
+      </div>
+      <div class="topnav topnavDOWN">
+				<a href="#clients"><i class="fa fa-fw fa-cog"></i></a>
+        <input type="text" placeholder="Search..."></input>
+        <a href="#contact"><i class="fa fa-fw fa-search"></i></a>
+      </div>
+    </div>
+
+		<div class="parallax">
+			<div class="sideTitle center">
+				<h1 class="center">HomeStream</h1>
+				<h3 class="centerTitle">Stream your Sofa</h3>
+			</div>
+		</div>
+
+			<div class="box boxFirst">
+				<div class="boxTitle">
+					<h2 class="center">Letzte Uploads</h2>
+					<h3 class="right"><a href="#services">Mehr &#187;</a></h3>
+
+					<ul>
+					  <a href="#home"><img src="img/2968420-l.jpg" alt="Nature" style="width: 300px;"></a>
+					  <a href="#home"><img src="img/0093624950486.jpg" alt="Nature" style="width: 300px;"></a>
+					  <a href="#home"><img src="img/0602577493973.jpg" alt="Nature" style="width: 300px;"></a>
+					  <a href="#home"><img src="img/0825646209835.jpg" alt="Nature" style="width: 300px;"></a>
+					  <a href="#home"><img src="img/abap-1421757849.jpg" alt="Nature" style="width: 300px;"></a>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="boxTitle">
+					<h2 class="center">Zuletzt Gestreamt</h2>
+					<h3 class="right"><a href="#services">Mehr &#187;</a></h3>
+
+					<ul>
+					  <a href="#home"><img src="img/test.png" alt="Nature"></a>
+					  <a href="#home"><img src="img/test.png" alt="Nature"></a>
+					  <a href="#home"><img src="img/test.png" alt="Nature"></a>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="boxTitle">
+					<h2 class="center">Favoriten</h2>
+					<h3 class="right"><a href="#services">Mehr &#187;</a></h3>
+
+					<ul>
+					  <a href="#home"><img src="img/test.png" alt="Nature"></a>
+					  <a href="#home"><img src="img/test.png" alt="Nature"></a>
+					  <a href="#home"><img src="img/test.png" alt="Nature"></a>
+					  <a href="#home"><img src="img/test.png" alt="Nature"></a>
+					</ul>
+
+				</div>
+			</div>
+		<div class="foot">
+			<div class="footContent">
+				<ul class="footList">
+				  <li>
+						<div>
+							<h4>Creater:</h4>
+							<p>J. Braack, M. Stephan, T. Schreiner, S. Schulze</p>
+						</div>
+					</li>
+				  <li>
+						<div>
+							<h4>Copyright:</h4>
+							<p>Creative Commons <i id="user" class="fa fa-fw fa-creative-commons"></i> 2019</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<script>
+			var state = 1;
+
+			var main = document.getElementById("user");
+
+			if(state == 1)
+			{
+				main.classList.remove("fa-user-o");
+				main.classList.add("fa-user");
+			}
+		</script>
+
+	</body>
+</html>

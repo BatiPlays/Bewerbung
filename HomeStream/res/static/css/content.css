@@ -1,0 +1,104 @@
+.sideTitle
+{
+  position: absolute;
+  margin: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+  width: auto;
+
+  position: fixed;
+}
+
+img
+{
+  box-shadow: 0;
+  margin: 1vh 0.5vw;
+  width: 18vw;
+
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+
+  transition: 0.5s ease;
+}
+
+.element:hover img
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.list
+{
+  display: inline-flex;
+
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.element
+{
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+
+  width: 70%;
+  opacity:  0;
+
+  background-color: #000b;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  transition: 0.5s ease;
+
+  text-align: center;
+}
+
+.element:hover .text-block
+{
+  opacity: 1;
+}
+
+
+.sideFoot
+{
+  position: absolute;
+  margin: 20px;
+  top: 60%;
+  transform: translate(0, -75%);
+  width: auto;
+}
+
+.sideTitle h1
+{
+  border-bottom: dotted;
+}
+
+.footList li
+{
+  position: relative;
+
+  float:left;
+  padding-right: 8%;
+  list-style-type: none;
+}
+.footContent
+{
+  position: relative;
+  top: 10%;
+
+  padding: 0.5%;
+}
+.footContent h4
+{
+  margin-bottom: -5px;
+}

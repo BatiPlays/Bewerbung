@@ -1,0 +1,6 @@
+<div class="audio" id="coverHead">
+    <audio controls id="coverPlayer" id="audio">
+        <source id="coverSrc" type="audio/mp3">
+    </audio>
+    <p id="coverName">test</p>
+</div>

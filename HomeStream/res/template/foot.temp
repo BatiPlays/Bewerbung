@@ -1,0 +1,24 @@
+<div class="foot">
+    <div class="footContent">
+        <ul class="footList">
+          <li>
+                <div>
+                    <h4>Creater:</h4>
+                    <p>J. Braack, M. Stephan, S. Schulze, T. Schreiner</p>
+                </div>
+           </li>
+          <li>
+                <div>
+                    <h4>Copyright:</h4>
+                    <p>Creative Commons <i id="user" class="fa fa-fw fa-creative-commons"></i> 2019</p>
+                </div>
+           </li>
+          <li>
+                <div>
+                    <h4>Impressum:</h4>
+                    <p><a>Read Me</a> | <a>@UPDATE_LOG</a></p>
+                </div>
+           </li>
+        </ul>
+    </div>
+</div>

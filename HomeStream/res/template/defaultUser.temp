@@ -1,0 +1,13 @@
+<form method="post" id="login">
+    <div>
+        <ul>
+            <li><label for="uname"><b>@USERNAME</b></label></li>
+            <li><input type="text" placeholder="Enter Username" id="name" required></li>
+            <li><label for="psw"><b>@PASSWORD</b></label></li>
+            <li><input type="password" placeholder="Enter Password" id="psw" required></li>
+            <li><a id="sendLogin" class="formLogin">@LOGIN</a> <a id="quit" class="formQuit">@QUIT</a></li>
+            <br><br><br>
+            <li><a id="sendRegister" class="sendRegister">@REGISTER</a></li>
+        </ul>
+    </div>
+</form>

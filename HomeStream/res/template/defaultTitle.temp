@@ -1,0 +1,6 @@
+<div class="parallax">
+    <div class="sideTitle center">
+        <h1 class="center">@TITLE</h1>
+        <h3 class="centerTitle">@MOTTO</h3>
+    </div>
+</div>

@@ -1,0 +1,3 @@
+<video  id="coverVideo" id="coverHead" controls>
+    <source id="videoSrc" type="video/mp4">
+</video>

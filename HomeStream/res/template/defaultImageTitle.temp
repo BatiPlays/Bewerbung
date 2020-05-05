@@ -1,0 +1,4 @@
+<div id="coverImg" class="coverIMG">
+    <img id="imgSrc" class="bigIMG">
+    <h3>@CLICK_TO_CLOSE</h3>
+</div>

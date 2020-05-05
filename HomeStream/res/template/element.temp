@@ -1,0 +1,6 @@
+<div class="element">
+    <img src="@ELEMENT_IMG">
+    <div class="text-block">
+        @ELEMENT_INFO
+    </div>
+</div>
